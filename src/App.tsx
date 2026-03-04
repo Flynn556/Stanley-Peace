@@ -5,6 +5,8 @@
 
 import React, { useState, useEffect } from 'react';
 import { motion, useScroll, useTransform, AnimatePresence } from 'motion/react';
+import hero2 from './assets/hero2.png';
+import rhino from './assets/rhino.png';
 import { 
   Bird, 
   Leaf, 
@@ -48,7 +50,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-olive-green rounded-full overflow-hidden flex items-center justify-center text-soft-cream shadow-sm">
             <img 
-              src="./assets/hero2.png" 
+              src={hero2}
               alt="Stanley Icon" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
@@ -212,7 +214,7 @@ export default function App() {
                 {/* Stanley Icon Image */}
                 <div className="w-56 h-56 md:w-72 md:h-72 bg-white rounded-full border-8 border-olive-green/20 flex items-center justify-center overflow-hidden shadow-2xl">
                   <img 
-                    src="./assets/hero2.png" 
+                    src={hero2}
                     alt="Stanley Peace" 
                     className="w-full h-full object-cover scale-110"
                     referrerPolicy="no-referrer"
@@ -264,7 +266,7 @@ export default function App() {
             >
               <div className="aspect-square bg-sage/30 rounded-3xl overflow-hidden relative">
                 <img 
-                  src="./assets/hero2.png" 
+                  src={hero2}
                   alt="Stanley's World" 
                   className="w-full h-full object-cover mix-blend-overlay opacity-60"
                   referrerPolicy="no-referrer"
@@ -454,7 +456,7 @@ export default function App() {
               <div className="bg-soft-cream p-12 rounded-[3rem] shadow-xl border border-earth-brown/5">
                 <div className="w-full aspect-square bg-sage/20 rounded-2xl overflow-hidden flex items-center justify-center mb-8 shadow-inner">
                   <motion.img
-                    src="./assets/rhino.png"
+                    src={rhino}
                     alt="Stanley Walking"
                     animate={{ x: [0, 10, 0] }}
                     transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }}
@@ -556,7 +558,7 @@ export default function App() {
           >
             <div className="w-48 h-48 bg-white rounded-full mx-auto flex items-center justify-center border-4 border-olive-green/20 backdrop-blur-sm overflow-hidden shadow-2xl">
               <img 
-                src="./assets/hero2.png" 
+                src={hero2}
                 alt="Stanley Peace Final" 
                 className="w-full h-full object-cover"
                 referrerPolicy="no-referrer"
@@ -591,7 +593,7 @@ export default function App() {
               <div className="flex items-center gap-2 mb-6">
                 <div className="w-8 h-8 bg-olive-green rounded-full overflow-hidden flex items-center justify-center text-soft-cream shadow-sm">
                   <img 
-                    src="./assets/hero2.png" 
+                    src={hero2}
                     alt="Stanley Footer" 
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"
