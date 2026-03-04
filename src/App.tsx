@@ -48,7 +48,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <div className="w-10 h-10 bg-olive-green rounded-full overflow-hidden flex items-center justify-center text-soft-cream shadow-sm">
             <img 
-              src="/hero2.png" 
+              src="assets/hero2.png" 
               alt="Stanley Icon" 
               className="w-full h-full object-cover"
               referrerPolicy="no-referrer"
